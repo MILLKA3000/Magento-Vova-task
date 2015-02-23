@@ -1,0 +1,22 @@
+<config>	
+	<acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <luxurytax  translate="title" module="luxurytax">
+                                        <title>Luxury Tax</title>
+										<sort_order>998</sort_order>
+                                    </luxurytax>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>
